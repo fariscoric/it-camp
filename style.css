@@ -1,0 +1,45 @@
+.prvi {
+    background-color: red;  
+    padding-top: 5px;
+    margin: 15px;
+    border-radius: 10%;
+}
+#drugi {
+    background: lightblue;
+    padding-top: 5px;
+    margin: 15px;
+    border-radius: 10%;
+}
+div {
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    padding-top: 5px;
+    margin: 15px;
+    border-radius: 10%;
+}
+p {
+    text-align: center;
+    color: white;
+}
+.prvi:hover {
+    background: darkred;
+    transition: 0.5s;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+}
+#drugi:hover {
+    background: blue;
+    transition: 0.5s;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+}
+div:hover {
+    background: darkorange;
+    transition: 0.5s;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+}
