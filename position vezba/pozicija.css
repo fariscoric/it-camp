@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+.navbar {
+    position: fixed;
+    background-color: brown;
+    width: 100%;
+    height: 10vh;
+}
+.hero {
+    background: orangered;
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 2000px;
+}
+.footer {
+    background: crimson;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+}
+.relative {
+    border-radius: 10px;
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    height: 20vh;
+    background: red;
+    opacity: 0.3;
+}
+.absolute {
+    border-radius: 50%;
+    position: absolute;
+    top: 80px;
+    right: -30px;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    opacity: 0.3;
+}
+.absolute2 {
+    border-radius: 50%;
+    position: absolute;
+    top: 80px;
+    right: -30px;
+    width: 100px;
+    height: 100px;
+    background: green;
+    opacity: 0.3;
+}
