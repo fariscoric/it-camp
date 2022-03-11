@@ -1,3 +1,6 @@
+html {
+    font-size: 10px;
+}
 body {
     margin: 0;
 }
@@ -26,4 +29,10 @@ body {
     background-color: blanchedalmond;
     width: 25%;
     height: 100%;
+}
+.em {
+    font-size: 10px;
+}
+span {
+    font-size: 5em;
 }

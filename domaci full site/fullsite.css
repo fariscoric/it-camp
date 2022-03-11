@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+}
+.navbar {
+    background-color: rgb(81, 16, 143);
+    width: 100%;
+    height: 10vh;
+}
+.navbar h3 {
+    padding-top: 25px;
+    padding-left: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.hero {
+    outline: 1px solid purple;
+    display: flex;
+    width: 100%;
+    height: 50vh;
+}
+.card1 {
+    position: relative;
+    top: 25%;
+    left: 15%;
+    width: 15%;
+    height: 50%;
+    font-size: 20px;
+}
+.card1title {
+    background: rgb(175, 0, 175);
+}
+.card1title h1 {
+    padding-left: 5px;
+    color: white;
+    font-size: 25px;
+}
+.card1 p {
+    padding-left: 5px;
+}
+.card2 {
+    position: relative;
+    left: 50%;
+    top: 25%;
+    height: 50%;
+    width: 20%;
+}
+.card2 img {
+    height: 100%;
+    width: 100%;
+}
+.badge {
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    height: 100px;
+    width: 100px;
+    background: red;
+    border-radius: 50%;
+}
+.badge h1 {
+    color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.hero2 {
+    background-color: rgb(81, 16, 143);
+    width: 100%;
+    height: 30vh;
+}
+.kard1 {
+    background: lime;
+    border-radius: 10px;
+    position: relative;
+    top: 15%;
+    left: 34%;
+    display: inline-block;
+    margin: 0 auto;
+    height: 70%;
+    width: 10%;
+}
+.kard2 {
+    background: rgb(184, 184, 2);
+    border-radius: 10px;
+    position: relative;
+    top: 15%;
+    left: 36%;
+    display: inline-block;
+    margin: 0 auto;
+    height: 70%;
+    width: 10%;
+}
+.kard3 {
+    background: rgb(180, 117, 0);
+    border-radius: 10px;
+    position: relative;
+    top: 15%;
+    left: 38%;
+    display: inline-block;
+    margin: 0 auto;
+    height: 70%;
+    width: 10%;
+}
+.hero2 img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 50%;
+    width: 100%;
+}
+.hero2 p {
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+.footer {
+    background-color: rgb(121, 39, 121);
+    width: 100%;
+    height: 10vh;
+}
+.footer h1 {
+    padding-top: 35px;
+    padding-left: 20px;
+    color: white;
+}
