@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+}
+
+.main {
+    height: 170vh;
+    width: 100%;
+}
+
+.navbar {
+    height: 10vh;
+    width: 100%;
+    scroll-behavior: smooth;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    box-shadow: 1px 1px 5px 1px rgb(180, 180, 180);
+    z-index: 1;
+}
+
+.naslov span {
+    color: rgb(76, 76, 230);
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    text-underline-offset: 3px;
+}
+
+a:hover {
+    text-decoration: 2px underline rgb(76, 76, 230);
+    color: rgb(76, 76, 230);
+}
+
+.hero1 {
+    padding-top: 10vh;
+    position: relative;
+    height: 80vh;
+    width: 100%;
+}
+
+.hero1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.welcome {
+    position: absolute;
+    top: 40%;
+    left: 200px;
+}
+.welcome span {
+    color: rgb(76, 76, 230);
+}
+
+.designers {
+    font-size: 25px;
+    color: grey;
+}
+
+.bizland {
+    font-size: 50px;
+}
+
+.button {
+    display: inline-block;
+    background: rgb(76, 76, 230);
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+
+.button span {
+    color: white;
+}
+
+.video {
+    margin-left: 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.video:hover {
+    text-decoration: none;
+}
+
+.hero2 {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 1px 1px 5px 1px rgb(100, 100, 100);
+    background: rgb(211, 211, 211);
+    width: 15%;
+    height: 80%;
+    border-radius: 5px;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.card h2{
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.lorem {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.card:hover {
+    background: rgb(76, 76, 230);
+    color: white;
+}
+
+.hero3 {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 100%;
+    background: rgb(211, 211, 211);
+    align-items: center;
+}
+
+.hero3 p {
+    font-size: 20px;
+}
+
+.team {
+    margin-top: 20px;
+}
+
+.team span {
+    color: rgb(76, 76, 230);
+}
+
+.employees {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employee {
+    box-shadow: 1px 1px 5px 1px rgb(100, 100, 100);
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 15%;
+    height: 80%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.radnik {
+    height: 80%;
+}
+
+.employee img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.ime {
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.employee p {
+    padding-left: 10px;
+    font-size: 20px;
+}
