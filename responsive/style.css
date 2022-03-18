@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 75px;
+    height: 75px;
+    margin: 15px;
+    background-color: pink;
+}
